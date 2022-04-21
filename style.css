@@ -24,6 +24,17 @@ h1 {
     font-size: 24px;
     color: #F9FAF8;
 }
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+.navbar ul, .navbar .logo {
+    margin-top: 20px;
+}
+.navbar a {
+    text-decoration: none;
+}
 img {
     max-width: 100%;
 }
@@ -33,4 +44,10 @@ h1,h2 {
 .container, .navbar{
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 30px;
+}
+.header .navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
