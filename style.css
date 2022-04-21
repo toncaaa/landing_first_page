@@ -50,7 +50,6 @@ h1,h2 {
 .container, .navbar{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 30px;
 }
 .header .navbar {
 display: flex;
@@ -69,5 +68,28 @@ margin-bottom: 50px;
        color: #fff;
        padding: 8px 16px;
        border-radius: 10px;
+}
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;
+}
+.boxcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.boxcontainer div {
+    max-width: 200px;
+}
+.boxcontainer .box {
+    border: #3882F6;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 30px;
 }
 
