@@ -92,4 +92,21 @@ margin-bottom: 50px;
     border-style: solid;
     border-radius: 30px;
 }
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 20px 0;
+    padding: 100px 0;
+}
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote h5 {
+    align-self: flex-end;
+}
 
