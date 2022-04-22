@@ -92,6 +92,11 @@ margin-bottom: 50px;
     height: 200px;
     border-style: solid;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.box img {
+    height: 100%;
 }
 .quote {
     background-color: #E5E7EB;
